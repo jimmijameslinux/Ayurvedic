@@ -1,0 +1,2 @@
+# Ayurvedic
+Created with CodeSandbox
