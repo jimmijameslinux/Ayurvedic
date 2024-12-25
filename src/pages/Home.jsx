@@ -1,6 +1,7 @@
 import Banner from "../components/Banner";
 import Consultation from "../components/Consultation";
 import Discover from "../components/Discover";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -14,6 +15,9 @@ function Home() {
       <section className="consultationtogether">
         <Consultation />
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
