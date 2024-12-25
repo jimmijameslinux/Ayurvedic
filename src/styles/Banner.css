@@ -1,0 +1,153 @@
+@import url("https://fonts.cdnfonts.com/css/nexa-bold");
+@import url("https://fonts.cdnfonts.com/css/dinpro-bold");
+@import url("https://fonts.cdnfonts.com/css/dinpro");
+@import url("https://fonts.cdnfonts.com/css/dinpro-medium");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bannertogether {
+  background-color: #fff7e2;
+  padding-block: 2rem;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  height: 639px;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(18, 18, 18, 0.88) 0%,
+    rgba(18, 18, 18, 0.92) 46%,
+    rgba(1, 1, 1, 0) 100%
+  );
+
+  z-index: 1;
+}
+
+.bannerleft {
+  background-color: #951d1c;
+  width: 50%;
+}
+
+.bannerright {
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  width: 50%;
+}
+
+.contents {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 1rem; */
+  /* left: 1rem;
+  top: 1rem; */
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  /* line-break: strict; */
+  text-align: left;
+  justify-content: center;
+  padding-left: 6.5rem;
+}
+
+.title {
+  font-family: "Nexa", sans-serif;
+  font-size: 28px;
+  margin-bottom: 0.5rem;
+}
+
+.desc1 {
+  font-family: "DINPro-Bold", sans-serif;
+  font-size: 48px;
+  max-width: 56rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0px 4px 17px rgba(0, 0, 0, 0.6));
+}
+
+.desc2 {
+  font-family: "DINPro", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  max-width: 50rem;
+  margin-bottom: 3rem;
+}
+
+.underline {
+  text-decoration: underline;
+  margin-inline: 10px;
+  line-break: anywhere;
+}
+
+.contentbtn {
+  width: fit-content;
+  padding-inline: 40px;
+  padding-top: 28px;
+  padding-bottom: 21px;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #3a643b;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "DINPro-Medium", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  padding-block: 40px;
+}
+
+.service_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 283px;
+  column-gap: 1rem;
+}
+
+.eclipse {
+  min-width: 70px;
+  aspect-ratio: 1;
+  background: #ffffff;
+  border: 1px solid #3a643b;
+  border-radius: 50%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.04);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eclipse > img {
+  min-width: 40px;
+  aspect-ratio: 1;
+}
+
+.servicecontent_1 {
+  text-transform: capitalize;
+  font-family: "DINPro-Bold", sans-serif;
+  color: #3a643b;
+  /* width: 201px; */
+  line-break: auto;
+}

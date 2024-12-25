@@ -1,0 +1,18 @@
+.consultationtogether {
+  background-color: #fff7e2;
+  padding-block: 2rem;
+}
+
+.sanskrit {
+  max-width: 522px;
+  background-color: #ffffff;
+  padding-inline: 32px;
+  padding-block: 48px;
+  border-top: 5px solid #3a643b;
+  border-radius: 20px;
+}
+
+.sanskrit {
+  color: #3a643b;
+  text-align: center;
+}
