@@ -1,5 +1,7 @@
 import "../styles/Consultation.css";
 import consultone from "../img/consultone.png";
+import ayurvedicmed from "../img/ayurvedicmed.png";
+import women from "../img/women.png";
 function Consultation() {
   return (
     <>
@@ -35,10 +37,46 @@ function Consultation() {
           </div>
         </div>
         <div className="two">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="diagnosis">
+            <div className="child">
+              <h2>Zero side-effects</h2>
+              <p>
+                Ayurvedic treatments are devoid of chemicals, and are based
+                completely on natural herbs 
+              </p>
+            </div>
+          </div>
+          <div
+            className="consultone"
+            style={{
+              backgroundImage: `url(${ayurvedicmed})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              width: "293px",
+              height: "274px",
+            }}
+          >
+            {/* <img src={consultone} alt="" /> */}
+          </div>
+          <div className="diagnosis">
+            <div className="child">
+              <h2>Individual Treatment</h2>
+              <p>
+                all Treatments are personalized based on a person's unique
+                constitution and health concerns.
+              </p>
+            </div>
+          </div>
+          <div
+            className="consultone"
+            style={{
+              backgroundImage: `url(${women})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              width: "293px",
+              height: "274px",
+            }}
+          ></div>
         </div>
       </div>
     </>

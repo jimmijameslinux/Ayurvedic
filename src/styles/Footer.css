@@ -3,29 +3,36 @@
 
 .footer {
   background-color: rgba(58, 100, 59, 18%);
-  padding: 10rem;
+  /* padding: 10rem; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: left;
-
   font-size: 18px;
+  height: 50vh;
 }
 
-.footer > h5 {
-  color: #3a643b;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  left: -86px;
-  font-family: "DINPro-Bold", sans-serif;
-}
 ul {
   margin-top: 8px;
+  font-family: "DINPro", sans-serif;
 }
 
 .footer ul li {
   list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
   color: #474747;
+}
+
+li > h5 {
+  color: #3a643b;
+  /* text-align: center; */
+  width: 100%;
+  position: relative;
+  /* left: -86px; */
+  font-family: "DINPro-Bold", sans-serif;
+  margin-bottom: 9px;
 }
