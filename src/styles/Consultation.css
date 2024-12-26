@@ -4,7 +4,7 @@
 
 .consultationtogether {
   background-color: #fff7e2;
-  padding-block: 2rem;
+  padding-top: 2rem;
 }
 
 .mainconsult {
@@ -140,6 +140,7 @@
 }
 
 .book h4 {
+  max-width: 856px;
   color: #fff7e2;
   font-family: "DINPro", sans-serif;
   line-height: auto;
