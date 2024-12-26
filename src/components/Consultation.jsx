@@ -85,12 +85,12 @@ function Consultation() {
         style={{
           backgroundImage: `url(${consultationbook})`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
+          backgroundSize: "cover",
         }}
       >
         <div className="book">
           <h4>Ready to restore harmony in your mind, body and spirit?</h4>
-          <button>Book a consultation</button>
+          <button className="consultbtn">Book a consultation</button>
         </div>
       </div>
     </>

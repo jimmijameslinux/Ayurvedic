@@ -131,6 +131,35 @@
 .book {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   row-gap: 1rem;
+  backdrop-filter: brightness(0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.book h4 {
+  color: #fff7e2;
+  font-family: "DINPro", sans-serif;
+  line-height: auto;
+  font-size: 64px;
+  text-align: center;
+}
+
+.consultbtn {
+  width: fit-content;
+  padding-inline: 40px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #3a643b;
+  border: none;
+  color: #fff;
+  /* text-transform: uppercase; */
+  font-family: "DINPro-Medium", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 21px rgba(0, 0, 0, 17%));
 }
