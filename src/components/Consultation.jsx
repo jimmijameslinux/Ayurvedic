@@ -2,6 +2,7 @@ import "../styles/Consultation.css";
 import consultone from "../img/consultone.png";
 import ayurvedicmed from "../img/ayurvedicmed.png";
 import women from "../img/women.png";
+import consultationbook from "../img/consultationbook.png";
 function Consultation() {
   return (
     <>
@@ -77,6 +78,19 @@ function Consultation() {
               height: "274px",
             }}
           ></div>
+        </div>
+      </div>
+      <div
+        className="booking"
+        style={{
+          backgroundImage: `url(${consultationbook})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "contain",
+        }}
+      >
+        <div className="book">
+          <h4>Ready to restore harmony in your mind, body and spirit?</h4>
+          <button>Book a consultation</button>
         </div>
       </div>
     </>
