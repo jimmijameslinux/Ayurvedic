@@ -1,0 +1,99 @@
+@import url("https://fonts.cdnfonts.com/css/dinpro-bold");
+@import url("https://fonts.cdnfonts.com/css/dinpro");
+
+.ayurvedictogether {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.mainayurvedic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 62px;
+  row-gap: 24px;
+  /* max-width: 800px; */
+}
+
+.mainayurvedic > .title {
+  color: #3a643b;
+  text-align: center;
+  font-family: "DINPro-Bold", sans-serif;
+  font-size: 48px;
+  z-index: 2;
+}
+
+.hori {
+  /* width: 800px; */
+  height: 5px;
+  background-color: #c3d0c4;
+  border: none;
+  position: relative;
+  top: -10px;
+  z-index: -1;
+}
+
+.mainayurvedic > .desc {
+  font-family: "DINPro", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #666666;
+  line-height: 28px;
+}
+
+.subcontent {
+  padding-inline: 20px;
+  padding-block: 28px;
+  border-radius: 20px;
+  background-color: #fff7e2;
+  /* border: none; */
+  border-top: 4px solid #3a643b;
+  width: 290px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.subcontent span {
+  border-radius: 50%;
+  border: 1px solid #3a643b;
+  background-color: rgba(58, 100, 59, 66%);
+  width: 90px;
+  color: #ffffff;
+  padding: 1rem;
+  font-family: "DINPro-Bold", sans-serif;
+  font-size: 3rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontent h3 {
+  color: #3a643b;
+  font-family: "DINPro-Bold", sans-serif;
+  font-size: 24px;
+}
+
+.subcontent p {
+  color: #2e2e2e;
+  font-family: "DINPro", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.ayurvedicapproach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+}
