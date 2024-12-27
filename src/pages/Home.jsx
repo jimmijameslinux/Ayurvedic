@@ -1,3 +1,4 @@
+import Ayurvedic from "../components/Ayurvedic";
 import Banner from "../components/Banner";
 import Consultation from "../components/Consultation";
 import Discover from "../components/Discover";
@@ -14,6 +15,9 @@ function Home() {
       </section>
       <section className="consultationtogether">
         <Consultation />
+      </section>
+      <section className="ayurvedictogether">
+        <Ayurvedic />
       </section>
       <footer>
         <Footer />
