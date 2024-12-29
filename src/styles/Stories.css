@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/dinpro");
 @import url("https://fonts.cdnfonts.com/css/dinpro-bold");
+@import url("https://fonts.cdnfonts.com/css/gotham-9");
+@import url("https://fonts.cdnfonts.com/css/nunito");
 
 .storiestogether {
   /* background-color: #fff7e2; */
@@ -165,6 +167,14 @@
   row-gap: 0.5rem;
 }
 
+.storycontent h3 {
+  font-family: "Gotham", sans-serif;
+}
+
+.storycontent > span {
+  color: #838383;
+}
+
 .degreei {
   width: 24px;
   aspect-ratio: 1;
@@ -173,6 +183,12 @@
 .pini {
   width: 16px;
   aspect-ratio: 1;
+}
+
+.degree {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .degree,
