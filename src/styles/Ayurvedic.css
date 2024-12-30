@@ -93,7 +93,8 @@
 
 .ayurvedicapproach {
   display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 24px;
 }

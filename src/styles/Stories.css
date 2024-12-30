@@ -98,7 +98,7 @@
   justify-content: center;
   align-items: center;
   row-gap: 19px;
-  padding-inline:1rem;
+  padding-inline: 1rem;
 }
 
 .child > h2 {
@@ -119,10 +119,10 @@
 .stories {
   padding-inline: 10rem;
   display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
-  column-gap: 2rem;
 }
 
 /* .diagnosis > .child > h2 {

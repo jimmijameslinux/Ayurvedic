@@ -115,8 +115,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
   padding-block: 40px;
+  flex-wrap: wrap;
 }
 
 .service_1 {
